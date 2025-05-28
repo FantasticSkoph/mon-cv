@@ -25,4 +25,5 @@ li{
     font-size: 14px;
     line-height: 1.5;
     color: #000;
+    list-style-type: none;
 }
