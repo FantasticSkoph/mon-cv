@@ -58,6 +58,7 @@ li{
 body {
   /* Pour coller le menu au bord, sans espace */
   margin: 0;
+  z-index: 1;
 }
 
 .menu {
@@ -89,8 +90,8 @@ main {
   /* Pour que le menu hamburger s'affiche toujours */
   text-align: right;
   /* Pour que le menu hamburger soit "rangé" par défaut */
-  transform: translateX(-168px);
-  padding: 10px;
+  transform: translateX(-119px);
+  padding: 30px;
 }
 
 nav {
