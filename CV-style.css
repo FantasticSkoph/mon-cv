@@ -35,6 +35,11 @@ li{
     line-height: 1.2;
     color: #626262;
 }
+header{
+   height:100px;
+   width:100%;
+   background-color:#B0E4E8;  
+}
 .desk{
     font-family: 'Tahoma', sans-serif;
     font-size: 14px;
@@ -130,7 +135,7 @@ nav a:hover {
 }
 .boite-small{
   background-color: #E1EAEB;
-  width: 200px;
+  width: 400px;
   border: 10px solid #E1EAEB;
   padding: 20px;
   margin: 20px;
