@@ -2,8 +2,7 @@ p{
     font-family: 'Tahoma', sans-serif;
     font-size: 14px;
     line-height: 1.2;
-    color: #000;
-    text-align: center;
+    color: #626262;
 }
 h1, h2{
     font-family: 'Verdana', sans-serif;
@@ -17,36 +16,30 @@ h3{
     font-size: 18px;
     font-weight: bold;  
     color: #000;
-    text-align: center;
 }
 h4{
     font-family: 'Verdana', sans-serif;
     font-size: 14px;
     font-weight: bold;  
     color: #000;
-    text-align: center;
 }
 ul{
-    text-align: center;
     font-family: 'Tahoma', sans-serif;
     font-size: 14px;
     line-height: 1.2;
     color: #000;
 }
 li{
-    text-align: center;
     font-family: 'Tahoma', sans-serif;
     font-size: 14px;
     line-height: 1.2;
-    color: #000;
-    list-style-type: none;
+    color: #626262;
 }
 .desk{
     font-family: 'Tahoma', sans-serif;
     font-size: 14px;
     line-height: 1.5;
-    color: #000;
-    text-align: center;
+    color: #626262;
     padding-inline: 100px;
 }
 
@@ -126,4 +119,21 @@ nav a {
 
 nav a:hover {
   background: #E1EAEB;
+}
+.boite{
+  background-color: #E1EAEB;
+  width: 700px;
+  border: 10px solid #E1EAEB;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 50px;
+}
+.boite-small{
+  background-color: #E1EAEB;
+  width: 200px;
+  border: 10px solid #E1EAEB;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 50px;
+  box-align: center;
 }
