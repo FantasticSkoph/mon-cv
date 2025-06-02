@@ -120,8 +120,9 @@ nav a {
   color: black;
   text-decoration: none;
   padding: 10px;
+  font-family: 'Tahoma', sans-serif;
 }
 
 nav a:hover {
-  background: #444;
+  background: #E1EAEB;
 }
