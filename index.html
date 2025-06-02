@@ -5,22 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="CV-style.css">
+    <link rel="JavaScript" href="button.js">
 </head>
 <body>
     <header>
         <h1>CAUVIN EVE</h1>
         <p>Dans le cadre de la validation d’un Titre Professionnel de Dev Web et Web Mobile, je suis à la recherche d’un stage en entreprise.</p>
-        <nav>
-            <div class="desk">
-                <span class="plate">
-                    <a href="#formations" aria-label="Cliquez ici">Diplômes & formations</a></li>
-                    <a href="#professionnel" aria-label="Cliquez ici">Parcours professionnel</a></li>
-                    <a href="#competences" aria-label="Cliquez ici">Compétences</a></li>
-                    <a href="#contacts" aria-label="Cliquez ici">Contacts</a></li>
-                </span>
-            </div>
-        </nav>
-    </header>
+        <div id="mySidenav" class="sidenav">
+  <a id="closeBtn" href="#" class="close">×</a>
+  <ul>
+    <li><a href="#">Formations</a></li>
+    <li><a href="#">Professionnel</a></li>
+    <li><a href="#">Compétences</a></li>
+    <li><a href="#">Langues</a></li>
+    <li><a href="#">Autres informations</a></li>
+  </ul>
+</div>
+
+<a href="#" id="openBtn">
+  <span class="burger-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </span>
+</a>
+</header>
     <section id="formations">
         <h2>Diplômes & formations</h2>
         <h3>Titre Professionnel de Dev Web et Web Mobile:</h3>
