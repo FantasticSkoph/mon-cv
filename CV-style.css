@@ -3,6 +3,7 @@ p{
     font-size: 14px;
     line-height: 1.2;
     color: #626262;
+    text-align: center;
 }
 h1, h2{
     font-family: 'Verdana', sans-serif;
@@ -64,6 +65,7 @@ body {
   position: fixed;
   /* Pour que le menu ne soit pas sur le texte et que ce dernier puisse être sélectionné */
   width: 0px;
+  z-index: 1;
 }
 
 main {
@@ -71,11 +73,13 @@ main {
   margin-left: 50px;
   width: 500px;
   text-align: justify;
+  z-index: 1;
 }
 
 #hamburger {
   /* Pour que la checkbox ne s'affiche pas */
   display: none;
+  z-index: 1;
 }
 
 #hamburger-logo {
@@ -90,6 +94,7 @@ main {
   /* Pour que le menu hamburger soit "rangé" par défaut */
   transform: translateX(-119px);
   padding: 30px;
+  z-index: 1;
 }
 
 nav {
@@ -100,12 +105,14 @@ nav {
   width: 200px;
   /* Pour que les liens soient "rangés" par défaut */
   transform: translateX(-200px);
+  z-index: 1;
 }
 
 #hamburger-logo,
 nav {
   /* Pour qu'il y ait une animation */
   transition: 0.7s;
+  z-index: 1;
 }
 
 /* Lorsque #hamburger est coché, le #hamburger-logo et le nav qui sont dans le même parent changent de propriété */
@@ -113,6 +120,7 @@ nav {
 #hamburger:checked ~ nav {
   /* Changement de la position pour afficher les menus */
   transform: translate(0);
+  z-index: 1;
 }
 
 nav a {
@@ -120,22 +128,28 @@ nav a {
   text-decoration: none;
   padding: 10px;
   font-family: 'Tahoma', sans-serif;
+  z-index: 1;
 }
 
 nav a:hover {
   background: #E1EAEB;
+  z-index: 1;
 }
 .boite{
+  position:relative;
+  box-sizing: border-box;
   background-color: #E1EAEB;
   padding: 20px;
-  margin: 20px;
+  margin: 10px;
   border-radius: 50px;
-  justify-content: center;
 }
 .boite-small{
+  position:relative;
+  box-sizing: border-box;
   background-color: #E1EAEB;
-  padding: 20px;
-  margin: 20px;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
   border-radius: 50px;
-  justify-content: center;
+  align-items: center;
 }
