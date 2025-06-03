@@ -36,7 +36,7 @@ li{
     line-height: 1.2;
     color: #626262;
 }
-header{
+header, footer{
    height:100px;
    width:100%;
    background-color:#B0E4E8;  
