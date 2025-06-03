@@ -51,11 +51,7 @@ header, footer{
    background-color:#B0E4E8;  
 }
 .desk{
-    font-family: 'Tahoma', sans-serif;
-    font-size: 18px;
-    line-height: 3;
-    color: #626262;
-    margin: 20px;
+    width:75px
 }
 
 * {
@@ -174,7 +170,4 @@ nav a:hover {
   margin: auto;
   display: block;
   margin-top: 25px;
-}
-img{
-  width:75px
 }
