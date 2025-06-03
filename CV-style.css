@@ -15,6 +15,7 @@ h1, h2{
 h2{
   position:relative;
   box-sizing: border-box;
+  margin:auto;
   background-color: #B0E4E8;
   padding: 20px;
   margin: 10px;
@@ -148,8 +149,10 @@ nav a:hover {
   box-sizing: border-box;
   background-color: #E1EAEB;
   padding: 20px;
-  margin: 10px;
+  margin: auto;
   border-radius: 50px;
+  max-width: 600px;
+  margin: auto;
 }
 .boite-small{
   position:relative;
@@ -157,7 +160,9 @@ nav a:hover {
   background-color: #E1EAEB;
   height: auto;
   padding: 10px;
-  margin: 10px;
+  margin: auto;
+  margin-top: 10px;
   border-radius: 50px;
   align-items: center;
+  max-width: 150px;
 }
