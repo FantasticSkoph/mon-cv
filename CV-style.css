@@ -43,11 +43,10 @@ header, footer{
 }
 .desk{
     font-family: 'Tahoma', sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 18px;
+    line-height: 3;
     color: #626262;
-    padding-inline: 100px;
-    margin: 40px;
+    margin: 20px;
 }
 
 * {
