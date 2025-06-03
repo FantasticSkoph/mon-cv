@@ -47,6 +47,7 @@ header, footer{
     line-height: 1.5;
     color: #626262;
     padding-inline: 100px;
+    margin: 40px;
 }
 
 * {
