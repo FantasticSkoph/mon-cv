@@ -127,18 +127,15 @@ nav a:hover {
 }
 .boite{
   background-color: #E1EAEB;
-  width: 700px;
-  border: 10px solid #E1EAEB;
   padding: 20px;
   margin: 20px;
   border-radius: 50px;
+  justify-content: center;
 }
 .boite-small{
   background-color: #E1EAEB;
-  width: 400px;
-  border: 10px solid #E1EAEB;
   padding: 20px;
   margin: 20px;
   border-radius: 50px;
-  box-align: center;
+  justify-content: center;
 }
