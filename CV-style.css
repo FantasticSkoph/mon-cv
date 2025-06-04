@@ -51,9 +51,9 @@ header, footer{
    background-color:#B0E4E8;  
 }
 .desk{
-    width:75px
+    max-width: 7%;
+    margin: 15px;
 }
-
 * {
   /* Pour que les tailles soient correctes */
   box-sizing: border-box;
@@ -151,17 +151,17 @@ nav a:hover {
   margin: auto;
 }
 .boite-small{
-  position:relative;
-  box-sizing: border-box;
   background-color: #E1EAEB;
-  height: auto;
   padding: 10px;
-  margin: auto;
   margin-top: 10px;
   border-radius: 50px;
-  align-items: center;
   max-width: 150px;
   display:inline-block;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #626262;
+  text-align: center;
 }
 .avatar {
   border-radius: 250px;
