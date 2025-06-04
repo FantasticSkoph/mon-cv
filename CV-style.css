@@ -15,14 +15,22 @@ p{
   font-family: "Merriweather Sans", sans-serif;
   font-size: 24px;
   color: #000000;
-  text-align: center;
-  padding: 10px;
+  margin: 10px;
+  display:block;
+  margin-top:40px
 }
 .Title2{
   font-family: "Merriweather Sans", sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   color: #626262;
-  text-align: center;
+  margin: 10px;
+}
+.Title3{
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 14px;
+  color: #626262;
+  margin: 10px;
+  margin-bottom: 35px;
 }
 h2{
   font-family: "Merriweather Sans", sans-serif;
@@ -184,10 +192,11 @@ nav a:hover {
   text-align: center;
 }
 .avatar {
-  border-radius: 250px;
-  max-width: 200px;
-  position: relative;
-  margin: auto;
   display: block;
+  float:left;
+  border-radius: 250px;
   margin-top: 25px;
+  margin-right: 25px;
+  margin-left: 20%;
+  max-width: 150px;
 }
