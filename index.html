@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="La page de mon CV en ligne">
-    <meta name="Keywords" content="CV Curriculum Vitae Eve Cauvin Dev Web Web Mobile">
+    <meta name="Keywords" content="CV, Curriculum Vitae, Eve Cauvin, Dev Web Web Mobile">
     <meta name="Author" content="Eve Cauvin">
-    <title>Document</title>
+    <title>CV en ligne - CAUVIN Eve</title>
     <link rel="stylesheet" href="CV-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,22 +14,47 @@
 </head>
 <body>
     <header>
-        <div class="header"></div>
-          <!-- Side Menu -->
-    <div class="menu">
-        <!-- Checkbox -->
-    <input type="checkbox" id="hamburger">
-        <!-- Checkbox Label -->
-    <label id="hamburger-logo" for="hamburger">☰</label>
-        <!-- The menu's logo -->
-    <nav>
-      <a href="#formations">Formations</a>
-      <a href="#professionnel">Parcours Professionnel</a>
-      <a href="#competences">Compétences & Langues</a>
-      <a href="#infos">Autres Informations</a>
-      <a href="#contacts">Contacts</a>
-    </nav>
-</div>
+        <nav id="navbar" class="navbar">
+        <ul>
+            <div class="nav-toggle">
+            <li>
+                <a href="">Accueil</a>
+            </li>
+            <li>
+                <a href="">Formations</a>
+            </li>
+            <li>
+                <a href="">Parcours Professionnel</a>
+            </li>
+            <li>
+                <a href="">Compétences & Langues</a>
+            </li>
+            <li>
+                <a href="">Autres Informations</a>
+            </li>
+            <li>
+                <a href="">Contacts</a>
+            </li>
+            </div>
+        </ul>
+        <button id="hamburger-toggle" class="hamburger">
+            <div class="icon-open">
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M4 6l16 0" /><path d="M4 12l16 0" />
+                <path d="M4 18l16 0" />
+            </svg>
+        </div>
+        <div class="icon-close">
+        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M18 6l-12 12" />
+            <path d="M6 6l12 12" />
+        </svg>
+        </div>
+        </button>
+        </nav>
+        <script src="button.js"></script>
 </header>
 <body>
     <img class="avatar" src="Help Avatar.jpg" alt="Un homme devant un ordinateur, un projecteur projettant le mot Help sur son front">
