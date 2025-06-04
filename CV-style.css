@@ -5,7 +5,7 @@ p{
   color: #626262;
   text-align: center;
 }
-
+/*Added a font*/
 .merriweather-sans{
   font-family: "Merriweather Sans", sans-serif;
   font-optical-sizing: auto;
@@ -157,6 +157,7 @@ nav a:hover {
   background: #E1EAEB;
   z-index: 1;
 }
+/*Added a flexbox*/
 .boite{
   font-family: "Merriweather Sans", sans-serif;
   position:relative;
@@ -168,6 +169,7 @@ nav a:hover {
   max-width: 600px;
   margin: auto;
 }
+/*Added a smaller flexbox*/
 .boite-small{
   font-family: "Merriweather Sans", sans-serif;
   background-color: #E1EAEB;
