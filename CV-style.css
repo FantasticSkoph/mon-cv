@@ -17,7 +17,7 @@ p{
   color: #000000;
   margin: 10px;
   display:block;
-  margin-top:40px
+  margin-top:60px
 }
 .Title2{
   font-family: "Merriweather Sans", sans-serif;
@@ -71,7 +71,7 @@ li{
   color: #626262;
 }
 footer{
-  height:50px;
+  height:30px;
   width:100%;
   background-color:#B0E4E8;  
 }
@@ -109,7 +109,7 @@ footer{
   display: block;
   float:left;
   border-radius: 250px;
-  margin-top: 25px;
+  margin-top: 50px;
   margin-right: 25px;
   margin-left: 20%;
   max-width: 150px;
@@ -120,6 +120,8 @@ body{
 }
 .navbar{
   background: #B0E4E8;
+  position: sticky;
+  top: 0;
 }
 .navbar ul{
   margin:unset;
@@ -136,6 +138,7 @@ body{
   text-decoration:none;
   display: inline-block;
   color:#000;
+  font-size: 18px;
 }
 .navbar a:hover{
   background: #E1EAEB;
@@ -148,6 +151,7 @@ body{
   background:unset;
   cursor: pointer;
   display:none;
+  background: #B0E4E8;
 }
 .navbar .hamburger .icon-close{
   display:none;
@@ -167,6 +171,7 @@ body{
   }
   .navbar .hamburger{
     display:block;
+    background: #B0E4E8;
   }
   .navbar.open .hamburger .icon-open{
     display: none;
@@ -174,4 +179,8 @@ body{
   .navbar.open .hamburger .icon-close{
     display: block;
   }
+}
+svg{
+  width: 60px;
+  height: 60px;
 }
