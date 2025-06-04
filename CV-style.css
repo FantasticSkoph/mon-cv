@@ -1,18 +1,31 @@
 p{
-    font-family: 'Tahoma', sans-serif;
-    font-size: 14px;
-    line-height: 1.2;
-    color: #626262;
-    text-align: center;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #626262;
+  text-align: center;
 }
-h1, h2{
-    font-family: 'Verdana', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: #000;
-    text-align: center;
+
+.merriweather-sans{
+  font-family: "Merriweather Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.Title1{
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+  padding: 10px;
+}
+.Title2{
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 18px;
+  color: #626262;
+  text-align: center;
 }
 h2{
+  font-family: "Merriweather Sans", sans-serif;
   position:relative;
   box-sizing: border-box;
   margin:auto;
@@ -20,39 +33,43 @@ h2{
   padding: 20px;
   margin: 10px;
   margin-top: 75px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
 }
 h3{
-    font-family: 'Verdana', sans-serif;
-    font-size: 18px;
-    font-weight: bold;  
-    color: #000;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bold;  
+  color: #000;
 }
 h4{
-    font-family: 'Verdana', sans-serif;
-    font-size: 14px;
-    font-weight: bold;  
-    color: #000;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;  
+  color: #000;
 }
 ul{
-    font-family: 'Tahoma', sans-serif;
-    font-size: 14px;
-    line-height: 1.2;
-    color: #000;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #000;
 }
 li{
-    font-family: 'Tahoma', sans-serif;
-    font-size: 14px;
-    line-height: 1.2;
-    color: #626262;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #626262;
 }
 header, footer{
-   height:100px;
-   width:100%;
-   background-color:#B0E4E8;  
+  height:100px;
+  width:100%;
+  background-color:#B0E4E8;  
 }
 .desk{
-    max-width: 7%;
-    margin: 15px;
+  max-width: 7%;
+  margin: 15px;
 }
 * {
   /* Pour que les tailles soient correctes */
@@ -129,10 +146,10 @@ nav {
 }
 
 nav a {
+  font-family: "Merriweather Sans", sans-serif;
   color: black;
   text-decoration: none;
   padding: 10px;
-  font-family: 'Tahoma', sans-serif;
   z-index: 1;
 }
 
@@ -141,6 +158,7 @@ nav a:hover {
   z-index: 1;
 }
 .boite{
+  font-family: "Merriweather Sans", sans-serif;
   position:relative;
   box-sizing: border-box;
   background-color: #E1EAEB;
@@ -151,13 +169,13 @@ nav a:hover {
   margin: auto;
 }
 .boite-small{
+  font-family: "Merriweather Sans", sans-serif;
   background-color: #E1EAEB;
   padding: 10px;
   margin-top: 10px;
   border-radius: 50px;
   max-width: 150px;
   display:inline-block;
-  font-family: 'Tahoma', sans-serif;
   font-size: 14px;
   line-height: 1.2;
   color: #626262;
@@ -165,7 +183,7 @@ nav a:hover {
 }
 .avatar {
   border-radius: 250px;
-  height: 200px;
+  max-width: 200px;
   position: relative;
   margin: auto;
   display: block;
