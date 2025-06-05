@@ -105,11 +105,11 @@ footer{
   color: #626262;
   text-align: center;
 }
+/*Placed the avatar off-center, to the left of the text*/
 .avatar {
   display: block;
   float:left;
   border-radius: 250px;
-  margin-top: 50px;
   margin-right: 25px;
   margin-left: 20%;
   max-width: 150px;
@@ -120,49 +120,58 @@ body{
 }
 nav{
   position:sticky;
-}
-.navbar{
-  position:sticky;
+  overflow:visible;
+  top:0;
   background: #B0E4E8;
+}
+.nav-toggle {
+  display: flex;
   position: sticky;
-  top: 0;
 }
-.navbar ul{
-  margin:unset;
-  list-style:none;
-  padding:unset;
-  display:flex;
-  position:relative;
-}
-.navbar .nav-toggle{
+.nav-toggle ul {
+  position: sticky;
   display: flex;
 }
-.navbar a{
+.nav-toggle li {
+  position: sticky;
+  list-style: none;
+}
+nav ul{
+  display:flex;
+  /* position:sticky; */
+  /* margin:unset; */
+  list-style:none;
+  /* padding:; */
+}
+nav .nav-toggle{
+  display: flex;
+}
+nav a{
+  display:flex;
   position:sticky;
   padding: 1em;
   text-decoration:none;
-  display: inline-block;
   color:#000;
   font-size: 18px;
 }
-.navbar a:hover{
+nav a:hover{
   background: #E1EAEB;
 }
-.navbar .hamburger{
+nav .hamburger{
   position:sticky;
-  position:absolute;
+  /* position:absolute; */
   top: 0;
-  right:0;
+  right: 0;
   border:unset;
   background:unset;
   cursor: pointer;
   display:none;
   background: #B0E4E8;
 }
-.navbar .hamburger .icon-close{
+nav .hamburger .icon-close{
   display:none;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 720px) {
   .navbar.open ul{
     display: block;
   }
@@ -185,8 +194,20 @@ nav{
   .navbar.open .hamburger .icon-close{
     display: block;
   }
+  .avatar {
+  display: block;
+  float:left;
+  border-radius: 250px;
+  margin-top: 50px;
+  margin-right: 25px;
+  margin-left: 10%;
+  max-width: 200px;
+}
 }
 svg{
   width: 60px;
   height: 60px;
+}
+.up{
+  width:100vw
 }

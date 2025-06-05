@@ -6,6 +6,7 @@
     <meta name="Description" content="La page de mon CV en ligne">
     <meta name="Keywords" content="CV, Curriculum Vitae, Eve Cauvin, Dev Web Web Mobile">
     <meta name="Author" content="Eve Cauvin">
+    <link rel="icon" type="image/x-icon" href="Work.png">
     <title>CV en ligne - CAUVIN Eve</title>
     <link rel="stylesheet" href="CV-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,32 +14,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav id="navbar" class="navbar">
-        <ul>
-            <div class="nav-toggle">
-            <li>
-                <a href="#accueil">Accueil</a>
-            </li>
-            <li>
-                <a href="#formations">Formations</a>
-            </li>
-            <li>
-                <a href="#professionnel">Parcours Professionnel</a>
-            </li>
-            <li>
-                <a href="#competences"">Compétences & Langues</a>
-            </li>
-            <li>
-                <a href="#infos">Autres Informations</a>
-            </li>
-            <li>
-                <a href="#contacts">Contacts</a>
-            </li>
-            </div>
-        </ul>
-        <button id="hamburger-toggle" class="hamburger">
-            <div class="icon-open">
+<header>
+    <nav id="navbar" class="navbar" style="position:sticky; top:0; z-index:100;">
+        <div class="nav-toggle">
+            <ul>
+                <li>
+                    <a href="#accueil">Accueil</a>
+                </li>
+                <li>
+                    <a href="#formations">Formations</a>
+                </li>
+                <li>
+                    <a href="#professionnel">Parcours Professionnel</a>
+                </li>
+                <li>
+                    <a href="#competences">Compétences & Langues</a>
+                </li>
+                <li>
+                    <a href="#infos">Autres Informations</a>
+                </li>
+                <li>
+                    <a href="#contacts">Contacts</a>
+                </li>
+            </ul>
+        </div>
+    <button id="hamburger-toggle" class="hamburger">
+        <div class="icon-open">
             <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M4 6l16 0" /><path d="M4 12l16 0" />
@@ -46,69 +47,77 @@
             </svg>
         </div>
         <div class="icon-close">
-        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-x">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M18 6l-12 12" />
-            <path d="M6 6l12 12" />
-        </svg>
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M18 6l-12 12" />
+                <path d="M6 6l12 12" />
+            </svg>
         </div>
-        </button>
-        </nav>
-        <script src="button.js"></script>
+    </button>
+    </nav>
+<script src="button.js"></script>
 </header>
 <body>
-    <img class="avatar" src="Help Avatar.jpg" alt="Un homme devant un ordinateur, un projecteur projettant le mot Help sur son front">
-    <div class="Title1">CAUVIN EVE</div>
-    <div class="Title2">Dev Web & Web Mobile</div>
-    <div class="Title3">Dans le cadre de la validation d’un Titre Professionnel de Dev Web et Web Mobile, je suis à la recherche d’un stage en entreprise.</div>
+    <section id="accueil">
+        <img class="avatar" src="Help Avatar.jpg" alt="Un homme devant un ordinateur, un projecteur projettant le mot Help sur son front">
+            <div class="Title1">CAUVIN EVE</div>
+            <div class="Title2">Dev Web & Web Mobile</div>
+            <div class="Title3">Dans le cadre de la validation d’un Titre Professionnel de Dev Web et Web Mobile, je suis à la recherche d’un stage en entreprise.</div>
+    </section>
     <section id="formations">
         <h2>FORMATIONS</h2>
-<div class="boite">
-    <h3>Titre Professionnel de Dev Web et Web Mobile:</h3>
-        <h4><i>Mode 83 (Avril 2025 - Janvier 2026)</i></h4>
-        <ul>
-            <li>HTML, CSS, JavaScript, PhP, SQL</li>
-            <li>DevOps, Full-Stack, UI, UX, Web Design</li>
-            <li>Installer et configurer son environnement de travail</li>
-            <li>Maquetter des interfaces utilisateur web ou web mobile</li>
-            <li>Mettre en œuvre une démarche de résolution de problème</li>
-            <li>Communiquer en français et en anglais</li>
-        </ul>
-</div>
+    <div class="boite">
+        <h3>Titre Professionnel de Dev Web et Web Mobile:</h3>
+            <h4><i>Mode 83 (Avril 2025 - Janvier 2026)</i></h4>
+                <ul>
+                    <li>HTML, CSS, JavaScript, PhP, SQL</li>
+                    <li>DevOps, Full-Stack, UI, UX, Web Design</li>
+                    <li>Installer et configurer son environnement de travail</li>
+                    <li>Maquetter des interfaces utilisateur web ou web mobile</li>
+                    <li>Mettre en œuvre une démarche de résolution de problème</li>
+                    <li>Communiquer en français et en anglais</li>
+                </ul>
+    </div>
 <br>
 <div class="boite">
     <h3>Formation de SST et SSIAP de niveau 1</h3>
-    <h4><i>Convergence Formation (Septembre 2024)</i></h4></div><br>
-        <div class="boite">
-            <h3>Formation de Technicien-Projectionniste</h3>
+        <h4><i>Convergence Formation (Septembre 2024)</i></h4>
+</div><br>
+    <div class="boite">
+        <h3>Formation de Technicien-Projectionniste</h3>
             <h4><i>Cineum de Cannes (Février 2023 - Avril 2023)</i></h4>
-            <ul>
-                <li>Pilotage automatique et manuel d’un projecteur</li>
-                <li>Maîtrise des technologies de projection</li>
-            </ul>
-        </div>
-    </section>
-    <section id="professionnel">
-        <h2>PARCOURS PROFESSIONNEL</h2>
-            <div class="boite">
-            <h3>Technicienne-Projectionniste</h3>
-            <h4><i>Cineum et Cineplanet Antibes (2023 - 2024)</i></h4>
                 <ul>
-                    <li>Compilation, transfert, programmation, vérification des contenus vidéos et audios</li>
-                    <li>Maintenance technique informatique</li>
-                </ul></div><br>
+                    <li>Pilotage automatique et manuel d’un projecteur</li>
+                    <li>Maîtrise des technologies de projection</li>
+                </ul>
+    </div>
+</section>
+<section id="professionnel">
+    <h2>PARCOURS PROFESSIONNEL</h2>
+        <div class="boite">
+            <h3>Technicienne-Projectionniste</h3>
+                <h4><i>Cineum et Cineplanet Antibes (2023 - 2024)</i></h4>
+                    <ul>
+                        <li>Compilation, transfert, programmation, vérification des contenus vidéos et audios</li>
+                        <li>Maintenance technique informatique</li>
+                    </ul>
+                </div><br>
         <div class="boite"><h3>Accueil-Technicienne</h3>
-        <h4><i>Illucity au Cineum de Cannes (2022 - 2023)</i></h4>
-        <ul>
-            <li>Surveillance du déroulé des jeux</li>
-            <li>Maintenance technique informatique</li>
-        </ul></div><br>
+            <h4><i>Illucity au Cineum de Cannes (2022 - 2023)</i></h4>
+                <ul>
+                    <li>Surveillance du déroulé des jeux</li>
+                    <li>Maintenance technique informatique</li>
+                </ul>
+            </div><br>
         <div class="boite"><h3>Agent d’accueil</h3>
-        <h4><i>Cineum de Cannes (2021 - 2022)</i></h4></div><br>
+            <h4><i>Cineum de Cannes (2021 - 2022)</i></h4>
+        </div><br>
         <div class="boite"><h3>Agent de Télé-Assistance</h3>
-        <h4>Vinci Autoroutes (Juillet 2019 - Août 2019)</h4></div><br>
+            <h4>Vinci Autoroutes (Juillet 2019 - Août 2019)</h4>
+        </div><br>
         <div class="boite"><h3>Agent de Terrain</h3>
-        <h4><i>Vinci Autoroutes (Juillet 2018 - Août 2018)</i></h4></div>
+            <h4><i>Vinci Autoroutes (Juillet 2018 - Août 2018)</i></h4>
+        </div>
     </section>
     <section id="competences">
         <h2>COMPÉTENCES & LANGUES</h2>
@@ -122,20 +131,20 @@
     </section>
     <section id="infos">
         <h2>AUTRES INFORMATIONS</h2>
-        <center><div class="boite-small">Permis B - Véhciulée</div>
-        <div class="boite-small">Dessin - Traditionnel & Digital</div>
-        <div class="boite-small">Modelisation 3D - Blender</div>
-        <div class="boite-small">Bricolage & DIY</div></center>
+            <center><div class="boite-small">Permis B - Véhciulée</div>
+            <div class="boite-small">Dessin - Traditionnel & Digital</div>
+            <div class="boite-small">Modelisation 3D - Blender</div>
+            <div class="boite-small">Bricolage & DIY</div></center>
     </section>
     <section id="contacts">
             <h2>CONTACTS</h2>
-            <center><p>Vous pouvez me contacter par téléphone au 07.67.07.01.32</p>
-            <p>Ou par mail à l'adresse suivante: eve.cauvin06@gmail.com</p></center>
-                <center>
-                    <a href="https://www.linkedin.com/in/eve-cauvin-9275ab316/" aria-label="Cliquez ici"><img class="desk" src="LinkedIn_Logo.png" alt="Mon compte LinkedIn"></a></div>
-                    <a href="https://github.com/FantasticSkoph" aria-label="Cliquez ici"><img class="desk" src="GitHub.png" alt="Mon compte GitHub"></a></div>
-                </center>
-    <footer>
-    </footer>
+                <center><p>Vous pouvez me contacter par téléphone au 07.67.07.01.32</p>
+                <p>Ou par mail à l'adresse suivante: eve.cauvin06@gmail.com</p></center>
+                    <center>
+                        <a href="https://www.linkedin.com/in/eve-cauvin-9275ab316/" aria-label="Cliquez ici"><img class="desk" src="LinkedIn_Logo.png" alt="Mon compte LinkedIn"></a></div>
+                        <a href="https://github.com/FantasticSkoph" aria-label="Cliquez ici"><img class="desk" src="GitHub.png" alt="Mon compte GitHub"></a></div>
+                    </center>
+            <footer>
+        </footer>
     </body>
 </html>
