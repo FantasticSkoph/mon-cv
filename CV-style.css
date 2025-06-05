@@ -118,6 +118,9 @@ body{
   margin:unset;
   font-family: "Merriweather Sans", sans-serif;
 }
+nav{
+  position:sticky;
+}
 .navbar{
   background: #B0E4E8;
   position: sticky;
