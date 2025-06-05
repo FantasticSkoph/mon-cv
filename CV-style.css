@@ -122,6 +122,7 @@ nav{
   position:sticky;
 }
 .navbar{
+  position:sticky;
   background: #B0E4E8;
   position: sticky;
   top: 0;
@@ -137,6 +138,7 @@ nav{
   display: flex;
 }
 .navbar a{
+  position:sticky;
   padding: 1em;
   text-decoration:none;
   display: inline-block;
@@ -147,6 +149,7 @@ nav{
   background: #E1EAEB;
 }
 .navbar .hamburger{
+  position:sticky;
   position:absolute;
   top: 0;
   right:0;
