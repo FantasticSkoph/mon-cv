@@ -128,6 +128,7 @@ main {
 }
 
 nav {
+  position:sticky;
   display: flex;
   flex-direction: column;
   background-color: #B0E4E8;
